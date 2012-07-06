@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <script type="text/javascript" src="./jquery.js"></script>
+    <script type="text/javascript" src="./carousel.js"></script>
+    <style type="text/css">
+      div {
+      white-space: nowrap;
+      border: 1px solid red;
+      width: 200px;
+      height: 100px;
+      overflow: hidden;
+      margin-top 20px;
+      margin-left: 20px;
+      position: relative;
+      }
+
+      ul {
+      position: absolute;
+      padding: 0;
+      font-size: 0;
+      }
+
+      li {
+      display: inline-block;
+      position: relative;
+      margin: 5px;
+      }
+
+      a {
+      position: absolute;
+      font-size: 16px;
+      top: 40%;
+      color: white;
+      text-decoration: none;
+      }
+
+      a.left {
+      left: 0;
+      }
+
+      a.right {
+      right: 0;
+      }
+
+      a.num {
+      left: 0;
+      bottom: 0;
+      top: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <ul>
+        <li>
+          <a class="left" href="#">&lt;</a>
+          <img src="./blah.jpeg" />
+          <a class="num">1</a>
+          <a class="right" href="#">&gt;</a>
+        </li>
+        <li>
+          <a class="left" href="#">&lt;</a>
+          <img src="./blah.jpeg" />
+          <a class="num">2</a>
+          <a class="right" href="#">&gt;</a>
+        </li>
+        <li>
+          <a class="left" href="#">&lt;</a>
+          <img src="./blah.jpeg" />
+          <a class="num">3</a>
+          <a class="right" href="#">&gt;</a>
+        </li>
+        <li>
+          <a class="left" href="#">&lt;</a>
+          <img src="./blah.jpeg" />
+          <a class="num">4</a>
+          <a class="right" href="#">&gt;</a>
+        </li>
+        <li>
+          <a class="left" href="#">&lt;</a>
+          <img src="./blah.jpeg" />
+          <a class="num">5</a>
+          <a class="right" href="#">&gt;</a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
